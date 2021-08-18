@@ -3,7 +3,8 @@ import RPi.GPIO as GPIO
 LED = 12 #Physical pin 7, BCM pin GPIO.4 on the BCM2835
 # GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
-GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.BCM
+GPIO.)
 GPIO.setup(LED, GPIO.OUT)#pull_up_down=GPIO.PUD_UP
 idx = 0
 hold = 0.05
